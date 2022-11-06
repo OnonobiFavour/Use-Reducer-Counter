@@ -7,6 +7,7 @@
 /* 'home' style-sheet */
 .nav{
   width: screen;
+  position: fixed;
   /* height: 65px; */
   background-color: blue;
   display: flex;
