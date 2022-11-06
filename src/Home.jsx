@@ -10,14 +10,16 @@ const Home = () => {
 
   return (
     <header className="header">
-        <div className="h1-wrapper">
+        <article className="h1-wrapper">
          <div className="circle"></div>
          <h1 className="text-wrapper">
             Create a counter with React.js
          </h1>
-        </div>
-        <p>Counter App With React Hook . . . </p>
+        <article className='wrap'>
+        <p className='heading-sub'>Counter App With React Hook . . . </p>
         <button className='home-btn' onClick={handleclick}>Get started</button>
+        </article>
+        </article>
     </header>
   )
 }
