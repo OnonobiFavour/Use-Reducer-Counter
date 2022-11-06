@@ -27,10 +27,10 @@ const setValue = (state, action) =>{
     return (
         <section className="reducer">
 
-            <div className='App'>
+            <main className='App'>
               <h1 className='text--out'>{state.value}</h1>
 
-              <div className="btn-wrapper">
+              <article className="btn-wrapper">
 
               {/* implementing increment */}
               <button className="btn" onClick={() =>{
@@ -53,14 +53,14 @@ const setValue = (state, action) =>{
                 dispatch({type: "DECREMENT"})
         
               }}>-1</button>
-              </div>
+              </article>
         
       
               <div className="exit">
               <button className='btn-exit'onClick={handleclick}>&larr; Exit</button>
       
               </div>
-            </div>
+            </main>
         </section>
   
       
