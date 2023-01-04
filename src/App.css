@@ -196,9 +196,9 @@ input[type = 'text']{
   width: 250px;
   align-items: center;
 }
-.nested-nav li {
+.nested-nav li, a {
   list-style-type: none;
-  color: white;
+  color: #fff;
   font-size: 20px;
   font-weight: bolder;
 }
