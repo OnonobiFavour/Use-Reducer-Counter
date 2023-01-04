@@ -4,7 +4,7 @@ import { NavLink as Link } from 'react-router-dom'
 const Nav = () => {
   return (
     <nav className='nav'>
-        <div className='logo-name'>Kripsy.IO</div>
+        <div className='logo-name'>Counter.IO</div>
         <ul>
       <li>
         <Link to="/">Home</Link>
