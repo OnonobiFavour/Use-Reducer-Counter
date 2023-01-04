@@ -4,13 +4,13 @@ import { useCounter } from './useCounter'
 import NestedNav from './NestedNav'
 
 const Counter = () => {
+  const [count,setCount, {increment, decrement, reset}] = useCounter()
 
     const Navigate = useNavigate();
     const handleclick = () =>{
       Navigate('/')
     }
 
-    const [count,setCount, {increment, decrement, reset}] = useCounter()
   return (
     <section className="reducer">
         <NestedNav />
