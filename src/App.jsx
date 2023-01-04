@@ -11,6 +11,9 @@ import Nav from './Nav';
 import ErrorBoundary from './ErrorBoundary';
 import Home from './Home';
 import Reducer from './Reducer';
+import Counter from './Counter';
+
+
 
 const App = () => {
 
@@ -35,8 +38,8 @@ const App = () => {
         <Nav />
       < Reducer />
         </>
-      }>
-      </Route>
+      } />
+        <Route exact path='/start/useCounter' element={<><Nav /> <Counter /></>} />
 
       <Route exact path='*' element={<Error />}></Route>
 
