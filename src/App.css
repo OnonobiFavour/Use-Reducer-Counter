@@ -146,6 +146,12 @@
  text-align: center;
  padding-bottom: 1rem;
 }
+input[type = 'text']{
+  border-radius: 10px;
+  background-color: #ffff;
+  border-color: #777777;
+  color: black;
+}
 .btn{
   background-color: blue;
   color: white;
